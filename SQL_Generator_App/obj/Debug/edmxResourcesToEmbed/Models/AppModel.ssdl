@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestForTutorialsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'TestForTutorials.dbo.Persons' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Persons">
+          <Property Name="ID" Type="int" />
+          <Property Name="Name" Type="nvarchar" MaxLength="512" />
+          <Property Name="Mobile" Type="nvarchar" MaxLength="512" />
+          <Property Name="Email" Type="nvarchar" MaxLength="512" />
+          <Property Name="Country" Type="nvarchar" MaxLength="512" />
+        </EntityType>-->
+  <EntityContainer Name="TestForTutorialsModelStoreContainer" />
+</Schema>
